@@ -10,6 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { useDispatch, useSelector } from "react-redux";
 import { addEventUsers } from "../actions/FormActions";
 import { ClipLoader } from "react-spinners";
+import { useNavigate } from "react-router-dom";
 
 const validationSchema = Yup.object({
   name: Yup.string().required("Name is required"),
@@ -43,7 +44,7 @@ const yog = ["2024", "2025", "2026", "2027"];
 const NewEventForm = () => {
   const dispatch = useDispatch();
   const formInsertData = useSelector((state) => state.formUpload);
-
+  const navigate = useNavigate();
   const { error, loading, eventUsers } = formInsertData;
 
   const formik = useFormik({
@@ -64,6 +65,10 @@ const NewEventForm = () => {
           icon: "success",
           title: "Success",
           text: "Data has been successfully submitted.",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            navigate("/");
+          }
         });
       } catch (error) {
         console.error("Error:", error);

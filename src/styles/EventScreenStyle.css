@@ -49,6 +49,7 @@ h2 {
     padding: 30px;
     border-radius: 10px;
     background-color: #032853;
+
 }
 
 .right_Div {
@@ -77,6 +78,7 @@ h2 {
 .NewEventDiv>img {
     width: 400px;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 .NewEventForm {
@@ -112,7 +114,8 @@ h2 {
     }
 
     .NewEventDiv>img {
-        width: 200px;
+        width: 250px;
+        border-radius: 10px;
         object-fit: contain;
     }
 }
@@ -130,7 +133,8 @@ h2 {
     }
 
     .NewEventDiv>img {
-        width: 200px;
+        width: 250px;
+        border-radius: 10px;
         object-fit: contain;
     }
 }
