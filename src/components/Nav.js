@@ -14,7 +14,9 @@ function Nav() {
   return (
     <div className="nav">
       <header className="navheader">
-        <img src="https://i.imgur.com/DiBqJ0j.png" alt="" className="logo" />
+        <Link to="/">
+          <img src="https://i.imgur.com/DiBqJ0j.png" alt="" className="logo" />
+        </Link>
         <div className={`navlinks  ${showNavbar && "active"}`}>
           <Link to="/">Home</Link>
           <Link to="/#AboutSection">About</Link>
