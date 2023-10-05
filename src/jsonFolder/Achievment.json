@@ -1,0 +1,58 @@
+{
+  "achievments": [
+    {
+      "position": "AIR 1",
+      "competition": "SONAROUS",
+      "event": "National Student Space Competition 2019",
+      "organized": "ISRO and IIT, KGP"
+    },
+    {
+      "position": "AIR 2",
+      "competition": "Smart India Hackathon",
+      "event": "Smart India Hackathon",
+      "organized": "Ministry of Education's Innovation Cell"
+    },
+    {
+      "position": "AIR 3",
+      "competition": "MATLAB",
+      "event": "ROBOCON 2017",
+      "organized": "Asia-Pacific Broadcasting Union (ABU)"
+    },
+    {
+      "position": "AIR 4",
+      "competition": "MathWorks Parrot Mini-Drone",
+      "event": "MathWorks Parrot Mini-Drone",
+      "organized": "MathWorks"
+    },
+    {
+      "position": "AIR 6",
+      "competition": "ROBOCON",
+      "event": "ROBOCON 2017",
+      "organized": "Asia-Pacific Broadcasting Union (ABU)"
+    },
+    {
+      "position": "1st Runners-Up",
+      "competition": "Hackathon",
+      "event": "Smart India Hackathon 2022",
+      "organized": "Ministry of Education's Innovation Cell"
+    },
+    {
+      "position": "1st Prize",
+      "competition": "Ideathon",
+      "event": "Innovation Design Competition 2022 ISRO Satish Dhawan Space Centre",
+      "organized": ""
+    },
+    {
+      "position": "Runner up",
+      "competition": "Hackathon",
+      "event": "Smart Odisha Hackathon 2018",
+      "organized": "Skill Development and Technical Education Department, Government of Odisha"
+    },
+    {
+      "position": "Two teams Finalist",
+      "competition": "Hackathon",
+      "event": "National Level 6th edition Techgium Hackathon",
+      "organized": "L&T Technology Services"
+    }
+  ]
+}

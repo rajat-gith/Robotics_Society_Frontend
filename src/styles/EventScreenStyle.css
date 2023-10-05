@@ -1,0 +1,110 @@
+.EventScreen {
+    background: #091527;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.PastGrid {
+    background: #091527;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.event p,
+h2 {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    padding-top: 5px;
+    color: white;
+    transform: ease-in 2s;
+
+}
+
+
+.event img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* New Event Form */
+.NewEventDiv {
+    display: flex;
+    margin: 100px;
+    width: 70%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #032853;
+}
+
+.right_Div {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right_Div>a>button {
+    width: 20%;
+    margin-top: 10px;
+}
+
+.right_Div>p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.currentEvent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NewEventDiv>img {
+    width: 400px;
+    object-fit: contain;
+}
+
+.NewEventForm {
+    background: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at center, #000000, #01013a);
+    z-index: -1
+}
+
+.NewEventForm>form {
+    width: 50%;
+    padding: 20px;
+    background: #5c5f639d;
+    border-radius: 10px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+
+    .NewEventDiv {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .NewEventForm>form {
+        width: 80%;
+    }
+}

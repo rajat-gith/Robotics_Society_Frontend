@@ -1,0 +1,71 @@
+.navheader {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.contactbutton {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.logo {
+    object-fit: contain;
+    width: 20%;
+}
+
+.navlinks {
+    display: flex;
+}
+
+.navlinks>a {
+    font-size: 1.5rem;
+    margin: 10px;
+    color: white;
+}
+
+.contactLink {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        object-fit: contain;
+        width: 60%;
+    }
+
+    .navlinks {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        margin: 5px;
+        border-radius: 10px;
+        background: #091527;
+        width: 0px;
+        height: calc(100vh - 60px);
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+    }
+
+    .contactLink {
+        display: block;
+    }
+
+    .navlinks.active {
+        width: 270px;
+    }
+
+    .contactbutton {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

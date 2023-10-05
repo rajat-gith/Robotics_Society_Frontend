@@ -1,0 +1,126 @@
+#AboutSection {
+    display: flex;
+    height: 100vh;
+    background-image:
+        radial-gradient(rgba(9, 21, 39, 0.95), rgba(9, 21, 39, 0.95)),
+        url('https://i.imgur.com/LUycdyI.jpg');
+    background-size: cover;
+    backdrop-filter: blur(0.5);
+    /* background: #85B5C6; */
+
+}
+
+
+.aboutcontent {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px;
+    padding-left: 10px;
+    flex-direction: column;
+    color: white;
+}
+
+.aimcontent {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.about_title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.imageSlider {
+    width: 50%;
+}
+
+.vdo {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.vdoframe {
+    width: 90%;
+    height: 55%;
+}
+.capitalize
+{
+    font-size: larger;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    #AboutSection {
+        right: 0;
+        height: 960px;
+        flex-direction: column;
+    }
+
+    .aimcontent {
+        font-size: 1.2rem;
+    }
+
+    .aboutcontent {
+        width: 100vw;
+        padding: 0px;
+        margin-top: 60px;
+    }
+
+
+    .vdo {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .aboutcontent {
+        width: 100vw;
+        padding: 0px;
+        margin-top: 60px;
+    }
+
+    .vdo {
+
+        width: 100%;
+        height: 90%;
+        border-radius: 10px;
+        box-shadow: 10px;
+    }
+
+    .vdoframe {
+        width: 90%;
+        height: 75%;
+    }
+
+    #AboutSection {
+        right: 0;
+        height: 960px;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .aboutcontent {
+        padding: 0px;
+        margin-top: 60px;
+    }
+
+    .vdo {
+
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 10px;
+    }
+}

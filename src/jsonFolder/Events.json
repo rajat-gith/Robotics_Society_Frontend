@@ -1,0 +1,48 @@
+{
+  "past_events": [
+    {
+      "event_name": "INTOBOTICS 2023",
+      "events_under": [
+        {
+          "name": "Robotics BootCamp Day-1 (Coding)",
+          "desc": "On the first session of robotics bootcamp cum induction classes, we conducted classes for programming on Arduino. The fundamentals of arduino programming , including connecting hardware components and controlling them using code  and many more were covered in the class.",
+          "poster_link": "https://devroboticssociety.pythonanywhere.com/images/Coding.png"
+        },
+        {
+          "name": "Robotics BootCamp Day-2 (Structural)",
+          "desc": "On the third session of robotics bootcamp cum induction classes we conducted class on the domain of structural. Its main aim was to equip students with a comprehensive understanding of the structural design and mechanics of robotics projects. It covered a wide range of topics like motors, actuators, switches , wheels and many more.",
+          "poster_link": "https://devroboticssociety.pythonanywhere.com/images/structural.png"
+        },
+        {
+          "name": "Robotics BootCamp Day-3 (Electronics)",
+          "desc": "On the second session of robotics bootcamp cum induction classes, we conducted classes on electronics. The class was designed to provide students with a comprehensive understanding of electronic circuits, components and their application in robotics. The program covered various topics like microcontroller, microprocessors , analog circuits, digital circuits, sensors and many more.",
+          "poster_link": "https://devroboticssociety.pythonanywhere.com/images/electronics.png"
+        }
+      ],
+      "video_link": "https://youtu.be/88UJUKGvdYA",
+      "desc": ""
+    },
+    {
+      "event_name": "SAMAVESH 2023",
+      "events_under": [
+        {
+          "name": "Death Valley",
+          "desc": "Death Valley  is a form of contest in which autonomous bots of students must first qualify in a robo scoccer round, and the bot with the highest score will be eligible to compete in the second round termed death valley. In Death Valley, the bot must navigate a trail filled with many obstacles such as sand, soap water, curving and sloping paths, glycerin, and fire.",
+          "poster_link": "https://devroboticssociety.pythonanywhere.com/images/death-valley.jpg"
+        },
+        {
+          "name": "Tread O Quest",
+          "desc": "In this competition an autonomous bot follows a specific black path and completes the track within the shortest  period of time possible. The robot must begin behind the starting point and is regarded to have crossed the finish line if any portion of it crosses it during a full lap of the course.",
+          "poster_link": "https://devroboticssociety.pythonanywhere.com/images/tread-o-quest.jpg"
+        },
+        {
+          "name": "Aero Flix",
+          "desc": "Aeroflix is an event in which we showcase our drone's performance. Drone shows are held to present various acrobatics performed with drones and to demonstrate how we can capture cinematics shot with drone cameras.",
+          "poster_link": "https://devroboticssociety.pythonanywhere.com/images/aeroflix.jpg"
+        }
+      ],
+      "video_link": "https://youtu.be/6WVlXJg6Mmk",
+      "desc": ""
+    }
+  ]
+}

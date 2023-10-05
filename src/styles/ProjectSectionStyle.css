@@ -1,0 +1,94 @@
+#ProjectSection {
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(rgba(9, 21, 39, 0.95), rgba(9, 21, 39, 0.95)),
+        url('https://i.imgur.com/LUycdyI.jpg');
+    background-size: cover;
+    backdrop-filter: blur(0.5);
+    width: 100%;
+}
+
+.projectCard {
+    display: flex;
+    width: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectCard>p {
+    color: white;
+}
+
+.pagetitle {
+    display: flex;
+    width: inherit;
+    justify-content: center;
+
+}
+.develop
+{
+    padding-top:10px;
+    color:white;
+    font-size: 20px;
+}
+
+
+.ModalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(7.5px);
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.pagetitle p {
+    font-size: 3rem;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.project_img {
+    display: flex;
+    width: inherit;
+    justify-content: center;
+    height: 200px;
+}
+
+.projectCard>span {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.project_img>img {
+    height: inherit;
+    object-fit: contain;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .ModalBox {
+        width: 80%;
+        padding: 10px;
+    }
+
+
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .ModalBox {
+        width: 80%;
+        padding: 10px;
+    }
+
+
+}

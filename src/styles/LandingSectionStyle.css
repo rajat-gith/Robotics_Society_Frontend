@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+
+#LandingSection {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*
+.MuiButton-contained {
+    text-transform: lowercase !important;
+}
+
+.socialmedia {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin: 10px
+}
+
+.socialmedia>button {
+    margin: 5px;
+}
+
+.sociaLinks {
+    color: white;
+}
+
+.socialmedia>a {
+    color: white;
+    margin: 10px;
+}
+
+.tagline {
+    position: absolute;
+    
+    top: 250px;
+}
+
+.tagline img {
+    width: 80%;
+}
+
+.landing_img img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+
+}
+
+.socialIcon {
+    display: none;
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+
+    .landing_img img {
+        width: 60%;
+        object-fit: contain;
+        opacity: 20%;
+    }
+
+
+
+}
+
+@media only screen and (min-width:425px) and (max-width:768px) {
+
+
+    .socialmedia {
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .socialmedia>a {
+        text-align: start;
+        margin: 5px;
+    }
+
+    .tagline {
+        position: absolute;
+        left: 50px;
+        top: 250px;
+    }
+
+
+    .tagline img {
+        width: 80%;
+        object-fit: contain;
+
+    }
+
+    .landing_img img {
+        width: 70%;
+        object-fit: contain;
+        opacity: 20%;
+    }
+
+    .socialmedia {
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (min-width:320px) and (max-width:426px) {
+    .socialmedia {
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .socialmedia>a {
+        text-align: start;
+        margin: 5px;
+    }
+
+    .tagline {
+        position: absolute;
+        left: 20px;
+        top: 250px;
+    }
+
+
+    .tagline img {
+        width: 90%;
+        object-fit: contain;
+
+    }
+
+    .landing_img img {
+        width: 100%;
+        object-fit: contain;
+        opacity: 20%;
+    }
+
+
+} */
+
+
+.logos {
+    display: flex;
+}
+
+.vssutlogo {
+    object-fit: contain;
+    width: 100px;
+}
+
+.clublogo {
+    object-fit: contain;
+    width: 100px;
+}
+
+.socialmedia>a {
+    color: white
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.tagline {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    
+}
+

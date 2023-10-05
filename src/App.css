@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+.App{
+  overflow-x: hidden;
+}
+.MuiButton-contained {
+  text-transform: capitalize !important;
+  font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.spinner {
+  height: 200px;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7.5px);
+}
+
+
+.div1 {
+  position: relative;
+  z-index: -1;
+}
+
+.div2 {
+  z-index: 1;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(7.5px);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,94 @@
+.footer {
+    position: relative;
+    display: flex;
+    background-image: radial-gradient(rgba(9, 21, 39, 0.95), rgba(9, 21, 39, 0.95)),
+        url('https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778_1280.jpg');
+    background-size: cover;
+    backdrop-filter: blur(0.5);
+    right: 0;
+}
+
+.map {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagetitle {
+    display: flex;
+    width: inherit;
+    justify-content: center;
+
+}
+
+.pagetitle p {
+    font-size: 3rem;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.map>iframe {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    object-fit: contain;
+}
+
+li {
+    color: white;
+    cursor: pointer;
+}
+
+.contact_details {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: start;
+}
+
+.contact {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contact p {
+    display: flex;
+    text-align: start;
+    color: white;
+    font-size: 20px;
+}
+
+.phone>p,
+a {
+    text-align: start;
+    color: white;
+    font-size: 20px;
+}
+
+.email>p,
+a {
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 670px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .contact_details {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+}
