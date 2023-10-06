@@ -32,6 +32,7 @@ const branches = [
   "EEE",
   "EE",
   "ME",
+  "MME",
   "PE",
   "CHE",
   "CE",
