@@ -87,6 +87,7 @@ const NewEventForm = () => {
         <ClipLoader className="loader" color="blue" />
       ) : (
         <form container maxWidth="sm" onSubmit={formik.handleSubmit}>
+          <p>Drone Dynamics: Sky is no more a limit</p>
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <TextField
@@ -219,7 +220,12 @@ const NewEventForm = () => {
               />
             </Grid>
             <Grid item xs={12}>
-              <Button type="submit" variant="contained" color="primary">
+              <Button
+                style={{ background: "#01013a" }}
+                type="submit"
+                variant="contained"
+                color="primary"
+              >
                 Submit
               </Button>
             </Grid>

@@ -92,8 +92,15 @@ h2 {
     background: radial-gradient(circle at center, #000000, #01013a);
     z-index: -1
 }
-
+.NewEventForm>form>p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
 .NewEventForm>form {
+    
     width: 50%;
     padding: 20px;
     background: #5c5f639d;
